@@ -33,7 +33,7 @@ export const LogoBox = styled(Box)`
 export const NavItemsBox = styled(Box)`
   display: flex;
   align-items: center;
-  gap: ${({ theme }) => theme.spacing(2)};
+  gap: ${({ theme }) => theme.spacing(1)};
 
   ${({ theme }) => theme.breakpoints.down('md')} {
     display: none;
