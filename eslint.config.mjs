@@ -16,7 +16,6 @@ const eslintConfig = [
   ...compat.extends('next/core-web-vitals', 'next/typescript'),
   eslintPluginPrettierRecommended,
   {
-    ignores: ['.prettierrc.mjs'],
     plugins: {
       import: importPlugin,
     },
