@@ -1,3 +1,10 @@
+import ThemeModeTest from '@/component/ThemeModeTest';
+
 export default function Home() {
-  return <div>首頁</div>;
+  return (
+    <div>
+      首頁
+      <ThemeModeTest />
+    </div>
+  );
 }
